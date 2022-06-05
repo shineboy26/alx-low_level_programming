@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /*
 *Description: main - ndabafuse mwaba bono mwe
-* kuber ik mutugola
+*return:  kuber ik mutugola
 *mutuleke
 */
 int main(void)
