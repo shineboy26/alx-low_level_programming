@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
-*Description: ndabafuse mwaba bono mwe
+*Description: main - ndabafuse mwaba bono mwe
 * kuber ik mutugola
 *mutuleke
 */
