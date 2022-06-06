@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
 *Description: main - Prints out a string to stdout
-*return: 0 kuber ik mutugola
+*return: 0  is good
 */
 int main(void)
 {
