@@ -1,11 +1,10 @@
 #include <stdio.h>
 /*
-*Description: main - ndabafuse mwaba bono mwe
+*Description: main - Prints out a string to stdout
 *return: 0 kuber ik mutugola
-*mutuleke
 */
 int main(void)
 {
-printf("\"with proper grammar, but the outcome is a piece of art,");
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
