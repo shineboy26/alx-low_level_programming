@@ -1,12 +1,14 @@
-_putchar.c
 #include "main.h"
-
 /**
- * _puts - a function that prints a string
- * @str: string input
- * Return: string
+ * _puts - prints a string, followed by a new line.
+ * @str: input string to print.
  */
-int _putchar(char c)
+void _puts(char *str)
 {
-	return (write(1, &c, 1));
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 }
