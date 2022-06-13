@@ -1,3 +1,4 @@
+_putchar.c
 #include "main.h"
 
 /**
@@ -5,13 +6,7 @@
  * @str: string input
  * Return: string
  */
-void _puts(char *str)
+int _putchar(char c)
 {
-	int i;
-
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
-	_putchar('\n');
+	return (write(1, &c, 1));
 }
